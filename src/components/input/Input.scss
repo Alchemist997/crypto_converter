@@ -1,0 +1,11 @@
+.input {
+  width: 50%;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  border: 1px solid #cccccc;
+  padding-left: 10px;
+
+  &:hover {
+    border-color: #a7a7a7;
+  }
+}

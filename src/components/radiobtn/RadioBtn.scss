@@ -1,0 +1,19 @@
+.radio-btn {
+  @extend %flex-center;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: $main-bc;
+  color: inherit;
+  border: none;
+  transition: 0.15s;
+
+  &.active {
+    background-color: $contrast-bc;
+    color: $main-bc;
+  }
+
+  &:not(.active):hover {
+    background-color: rgba($contrast-bc, 0.25);
+  }
+}
