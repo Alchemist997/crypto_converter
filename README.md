@@ -1,3 +1,7 @@
+## Демо:
+
+https://alchemist997.github.io/crypto_converter
+
 ### Available Scripts
 
 In the project directory, you can run:
